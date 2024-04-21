@@ -2558,12 +2558,11 @@ a.text-theme:hover,
 .vs-logo img {
   /* Medium devices */
   /* Small devices */
-  width: 120px;
-  /* height: 20px; */
+  width: 130px;
 }
 @media (max-width: 991px) {
   .vs-logo img {
-    padding: 20px 0;
+    padding: 5px 0;
   }
 }
 @media (max-width: 767px) {
@@ -3082,6 +3081,10 @@ Header Customization
   margin-bottom: 20px;
   display: inline-block;
   width: 200px;
+}
+
+.footer-logo .sidebar-logo {
+  width: 150px;
 }
 
 .footer-wrapper {
